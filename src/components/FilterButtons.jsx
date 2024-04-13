@@ -11,7 +11,7 @@ const FilterButtons = () => {
   };
 
   return (
-    <div className="flex space-x-4 items-center">
+    <div className="flex space-x-4 items-center text-red-800">
       <select
         className="text-sm px-2 py-1 rounded border border-gray-300 focus:outline-none"
         value={currentFilter}
