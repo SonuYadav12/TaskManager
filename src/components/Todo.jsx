@@ -58,7 +58,7 @@ const Todo = () => {
 
   return (
     <div className={`max-w-screen-lg mx-auto sm:mt-8 p-6 rounded ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-300'}`}>
-      <h2 className={`mt-3 mb-6 text-2xl font-bold font-serif hover:animate-pulse duration-500 ease-in-out delay-300 hover:scale-150 text-center uppercase ${darkMode ? 'text-white' : 'text-black'}`}>Task Manager</h2>
+      <h2 className={`mt-3 mb-6 text-2xl font-bold font-serif  text-center uppercase ${darkMode ? 'text-white' : 'text-black'}`}>Task Manager</h2>
       <div className={`mb-4 text-center ${darkMode ? 'text-gray-500' : 'text-gray-900'}`}>{currentDateTime}</div>
       <div className="flex items-center mb-4">
         <input
